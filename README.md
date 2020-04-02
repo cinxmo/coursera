@@ -1,2 +1,2 @@
 # coursera
-various code snippets from Coursera courses
+various code snippets and assignments from Coursera courses
