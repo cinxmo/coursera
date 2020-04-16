@@ -1,0 +1,99 @@
+
+/* The header should have a background color, background image (using a local image), and padding */
+header{
+	background-color: #FFFFFF;
+	background-image: url("../images/flywheel.jpg");
+	padding: 2%;
+	background-size: 150%;
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+	color: #17202A;
+}
+
+h2{
+	color: #FCF9F9;
+}
+
+/* The body should have padding and margin */
+body{
+	padding: 25px;
+	margin: 25px;
+}
+
+
+section{
+	background-color: #95A5A6;
+	display: inline-block;
+	padding: 25px;
+	
+}
+
+
+/* ONLY the links in navigation styled, not the other links */
+
+/*a{
+
+	background-color: #148F77;
+}*/
+
+
+
+/* 
+	The navigation links (and only the links in the navigation) 
+	should be styled with a new display, margin, border-radius, 
+	text-decoration, and padding
+*/
+nav a{
+	color: #FCF9F9;
+	display: inline-block;
+	font-size: 20px;
+	width: 20%;
+	text-align: center;
+	margin-right: 25px;
+	border-radius: 5px;
+	text-decoration: none;
+	padding: 5px;
+	background-color: #34495E;
+
+}
+
+img{
+	border: 25px;
+}
+
+.left{
+	display: inline-block;
+	width: 30%;
+	margin: auto;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	float: left;
+}
+
+.left img {
+	width: 80%;
+	margin: 0px auto 25px;
+
+}
+
+.right{
+	display: inline-block;
+	margin: 5% 5px;
+	width: 60%;
+	float: right;
+
+}
+
+/* 
+	The link to the current page should be styled differently 
+	from the other links (using class = "active')
+*/
+
+.active{
+	background: #FFFFFF;
+	color: #34495E;
+}
+
